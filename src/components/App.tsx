@@ -11,7 +11,7 @@ const LIST = [
 const App = () => {
   return (
     <div className="flex h-screen items-center justify-center px-8">
-      <main className="overflow-hidden rounded-lg text-white">
+      <main role="main" className="overflow-hidden rounded-lg text-white">
         <div className="md:grid md:max-w-2xl md:grid-cols-2">
           <section className="container space-y-4 bg-white py-6 md:col-span-2 md:p-12">
             <h1 className="text-2xl font-bold text-primary-cyan">
