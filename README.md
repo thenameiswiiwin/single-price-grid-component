@@ -9,8 +9,6 @@ A modern minimal Vite + React + TypeScript + Tailwind template with pre-configur
 ![ESLint](https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white)
 ![Prettier](https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E)
 
-![Screenshot](https://i.ibb.co/Trm88qJ/screenshot.png)
-
 ## Features
 
 - 🦾 Up to date libraries version and their features
@@ -21,7 +19,7 @@ A modern minimal Vite + React + TypeScript + Tailwind template with pre-configur
 ## Usage
 
 ```bash
-cd vite-react-ts-tw-airbnb-husky-template
+cd single-price-grid-component
 
 # Required if you want a repository and work with Git hooks
 git init

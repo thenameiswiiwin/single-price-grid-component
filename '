@@ -1,0 +1,51 @@
+const LIST = [
+  { title: 'Tutorials by industry experts', id: 1 },
+  { title: 'Peer & expert code review', id: 2 },
+  { title: 'Coding exercises', id: 3 },
+  { title: 'Access to our GitHub repos', id: 4 },
+  { title: 'Community forum', id: 5 },
+  { title: 'Flashcard decks', id: 6 },
+  { title: 'New videos every week', id: 7 },
+];
+
+const App = () => {
+  return (
+    <div className="container mx-auto">
+      <main>
+        <div>
+          <h1 className="text-2xl font-bold text-primary-cyan">
+            Join our community
+          </h1>
+          <h2 className="text-lg font-bold text-primary-green">
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p className="text-neutral-grayBlue">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+
+        <div>
+          <h3>Monthly Subscription</h3>
+          <h4>
+            $29 <span>per month</span>
+          </h4>
+          <p>Full access for less than $1 a day</p>
+          <button type="button">Sign Up</button>
+        </div>
+
+        <div>
+          <h3>Why Us</h3>
+          <ul>
+            {LIST.map((item) => (
+              <li key={item.id}>{item.title}</li>
+            ))}
+          </ul>
+        </div>
+      </main>
+    </div>
+  );
+};
+
+export default App;

@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-primary-cyan: 179deg 62% 43%;
+    --clr-primary-green: 71deg 73% 54%;
+    --clr-neutral-gray-light: 204deg 43% 93%;
+    --clr-neutral-gray-blue: 218deg 22% 67%;
+  }
+
+  body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(var(--clr-neutral-gray-light));
+  }
+}
